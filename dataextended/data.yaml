@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Box', 'human', 'product 1', 'product 2', 'product 3', 'product 4', 'product 5']
+
+roboflow:
+  workspace: talha-sami-a1lte
+  project: test5-j9j5b
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/talha-sami-a1lte/test5-j9j5b/dataset/2
